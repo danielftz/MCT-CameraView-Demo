@@ -63,6 +63,10 @@
         "net6.0-android31.0": {
           "targetAlias": "net6.0-android",
           "dependencies": {
+            "CommunityToolkit.Maui.Markup": {
+              "target": "Package",
+              "version": "[1.0.0-pre7, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
               "version": "[6.0.200-preview.13.2865, )",
@@ -72,6 +76,18 @@
               "target": "Package",
               "version": "[6.0.200-preview.13.2865, )",
               "autoReferenced": true
+            },
+            "Xamarin.AndroidX.Camera.Camera2": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Xamarin.AndroidX.Camera.Lifecycle": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Xamarin.AndroidX.Camera.View": {
+              "target": "Package",
+              "version": "[1.0.0.5-alpha20, )"
             }
           },
           "imports": [
@@ -120,6 +136,10 @@
         "net6.0-ios15.2": {
           "targetAlias": "net6.0-ios",
           "dependencies": {
+            "CommunityToolkit.Maui.Markup": {
+              "target": "Package",
+              "version": "[1.0.0-pre7, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
               "version": "[6.0.200-preview.13.2865, )",
@@ -163,6 +183,10 @@
         "net6.0-maccatalyst15.2": {
           "targetAlias": "net6.0-maccatalyst",
           "dependencies": {
+            "CommunityToolkit.Maui.Markup": {
+              "target": "Package",
+              "version": "[1.0.0-pre7, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
               "version": "[6.0.200-preview.13.2865, )",
@@ -207,6 +231,10 @@
         "net6.0-windows10.0.19041": {
           "targetAlias": "net6.0-windows10.0.19041",
           "dependencies": {
+            "CommunityToolkit.Maui.Markup": {
+              "target": "Package",
+              "version": "[1.0.0-pre7, )"
+            },
             "Microsoft.Graphics.Win2D": {
               "target": "Package",
               "version": "[1.0.0.30, )"

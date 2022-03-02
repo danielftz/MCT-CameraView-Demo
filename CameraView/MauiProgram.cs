@@ -1,4 +1,7 @@
-﻿namespace CameraView;
+﻿using CameraView.Platforms.Android;
+using Microsoft.Maui.Controls.Compatibility;
+
+namespace CameraView;
 
 public static class MauiProgram
 {
@@ -7,6 +10,13 @@ public static class MauiProgram
 		var builder = MauiApp.CreateBuilder();
 		builder
 			.UseMauiApp<App>()
+            .ConfigureMauiHandlers(handlers =>
+            {
+#if ANDROID
+				handlers.AddCompatibilityRenderer(typeof(CameraView), typeof(CameraViewRendererDroid));
+#elif IOS
+#endif
+			})
 			.ConfigureFonts(fonts =>
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

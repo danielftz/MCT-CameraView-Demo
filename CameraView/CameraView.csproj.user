@@ -1,8 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ActiveDebugFramework>net6.0-android</ActiveDebugFramework>
+    <ActiveDebugFramework>net6.0-ios</ActiveDebugFramework>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
-    <ActiveDebugProfile>Default (Android 12.0 - API 31)</ActiveDebugProfile>
+    <ActiveDebugProfile>Eamonn’s Bintec iPhone XR</ActiveDebugProfile>
+    <SelectedDevice>Eamonn’s Bintec iPhone XR</SelectedDevice>
+    <SelectedPlatformGroup>LocalDevice</SelectedPlatformGroup>
+    <DeveloperId>daniel.fang%40meescan.com</DeveloperId>
+    <DevelopmentTeamId>4U49T9274R</DevelopmentTeamId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(TargetPlatformIdentifier)'=='iOS'">
+    <RuntimeIdentifier>ios-arm</RuntimeIdentifier>
+    <PlatformTarget>arm</PlatformTarget>
   </PropertyGroup>
 </Project>

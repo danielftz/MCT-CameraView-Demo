@@ -1,5 +1,4 @@
-﻿using CameraView.Platforms.Android;
-using Microsoft.Maui.Controls.Compatibility;
+﻿using Microsoft.Maui.Controls.Compatibility;
 
 namespace CameraView;
 
@@ -13,8 +12,9 @@ public static class MauiProgram
             .ConfigureMauiHandlers(handlers =>
             {
 #if ANDROID
-				handlers.AddCompatibilityRenderer(typeof(CameraView), typeof(CameraViewRendererDroid));
+				handlers.AddCompatibilityRenderer(typeof(CameraView), typeof(Platforms.Android.CameraViewRendererDroid));
 #elif IOS
+				handlers.AddCompatibilityRenderer(typeof(CameraView), typeof(Platforms.iOS.CameraViewRendererIOS));
 #endif
 			})
 			.ConfigureFonts(fonts =>

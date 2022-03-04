@@ -10,9 +10,9 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = CameraView
-build_property.ProjectDir = F:\TD\MCT-CameraView-Demo\CameraView\
+build_property.ProjectDir = D:\Documents\MCT-CameraView-Demo\CameraView\
 
-[F:/TD/MCT-CameraView-Demo/CameraView/App.xaml]
+[D:/Documents/MCT-CameraView-Demo/CameraView/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CameraView.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml

@@ -6471,7 +6471,7 @@
         }
       }
     },
-    "net6.0-android31.0/iossimulator-x64": {
+    "net6.0-android31.0/ios-arm": {
       "CommunityToolkit.Maui.Markup/1.0.0-pre7": {
         "type": "package",
         "dependencies": {
@@ -13816,7 +13816,7 @@
         }
       }
     },
-    "net6.0-ios15.2/iossimulator-x64": {
+    "net6.0-ios15.2/ios-arm": {
       "CommunityToolkit.Maui.Markup/1.0.0-pre7": {
         "type": "package",
         "dependencies": {
@@ -15566,7 +15566,7 @@
         }
       }
     },
-    "net6.0-maccatalyst15.2/iossimulator-x64": {
+    "net6.0-maccatalyst15.2/ios-arm": {
       "CommunityToolkit.Maui.Markup/1.0.0-pre7": {
         "type": "package",
         "dependencies": {
@@ -17674,7 +17674,7 @@
         }
       }
     },
-    "net6.0-windows10.0.19041/iossimulator-x64": {
+    "net6.0-windows10.0.19041/ios-arm": {
       "CommunityToolkit.Maui.Markup/1.0.0-pre7": {
         "type": "package",
         "dependencies": {
@@ -21292,29 +21292,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\danie\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Daniel Fang\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\TD\\MCT-CameraView-Demo\\CameraView\\CameraView.csproj",
+      "projectUniqueName": "D:\\Documents\\MCT-CameraView-Demo\\CameraView\\CameraView.csproj",
       "projectName": "CameraView",
-      "projectPath": "F:\\TD\\MCT-CameraView-Demo\\CameraView\\CameraView.csproj",
-      "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-      "outputPath": "F:\\TD\\MCT-CameraView-Demo\\CameraView\\obj\\",
+      "projectPath": "D:\\Documents\\MCT-CameraView-Demo\\CameraView\\CameraView.csproj",
+      "packagesPath": "C:\\Users\\Daniel Fang\\.nuget\\packages\\",
+      "outputPath": "D:\\Documents\\MCT-CameraView-Demo\\CameraView\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Daniel Fang\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0-android",
@@ -21631,7 +21628,7 @@
       "android-x86": {
         "#import": []
       },
-      "iossimulator-x64": {
+      "ios-arm": {
         "#import": []
       },
       "maccatalyst-x64": {

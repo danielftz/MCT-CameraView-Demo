@@ -7,9 +7,9 @@ build_property.InvariantGlobalization = false
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CameraView
-build_property.ProjectDir = F:\TD\MCT-CameraView-Demo\CameraView\
+build_property.ProjectDir = D:\Documents\MCT-CameraView-Demo\CameraView\
 
-[F:/TD/MCT-CameraView-Demo/CameraView/App.xaml]
+[D:/Documents/MCT-CameraView-Demo/CameraView/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CameraView.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml

@@ -6,8 +6,10 @@
         {
             Content = new CameraView()
             {
+                BackgroundColor = Colors.Green,
                 HorizontalOptions = LayoutOptions.Fill,
                 VerticalOptions = LayoutOptions.Fill,
+                //HeightRequest = 500,
             };
 
         }

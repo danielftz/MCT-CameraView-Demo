@@ -17,7 +17,6 @@ namespace CameraView.Platforms.Android
     public class AndroidCameraView : CardView, IDisposable
     {
         private static readonly Context _context = Platform.AppContext;
-        private IExecutorService? _cameraExecutor;
         private PreviewView? _viewFinder;
         private Preview? _preview;
         private ICamera? _camera;
@@ -36,8 +35,6 @@ namespace CameraView.Platforms.Android
         {
             try
             {
-                _cameraExecutor = Executors.NewSingleThreadExecutor() ?? throw new NullReferenceException();
-
                 IListenableFuture? cameraProviderFuture = ProcessCameraProvider.GetInstance(_context);
 
                 //equivalent to cameraProviderFuture.ContinueWith(); Runnable will start when a ProcessCameraProvider Instance is retrieved

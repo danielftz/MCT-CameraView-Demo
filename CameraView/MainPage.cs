@@ -4,13 +4,30 @@
     {
         public MainPage()
         {
-            Content = new CameraView()
+            Content = new ContentView();
+        }
+
+        protected override async void OnAppearing()
+        {
+
+
+            PermissionStatus result = await Permissions.CheckStatusAsync<Permissions.Camera>();
+
+            if (result == PermissionStatus.Granted)
             {
-                BackgroundColor = Colors.Green,
-                HorizontalOptions = LayoutOptions.Fill,
-                VerticalOptions = LayoutOptions.Fill,
-                //HeightRequest = 500,
-            };
+                Content = new CameraView();
+                return;
+            }
+
+            result = await Permissions.RequestAsync<Permissions.Camera>();
+            if (result == PermissionStatus.Granted)
+            {
+                Content = new CameraView();
+                return;
+            }
+
+            base.OnAppearing();
+
 
         }
     }

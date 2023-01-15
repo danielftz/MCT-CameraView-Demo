@@ -1,0 +1,13 @@
+int attr implementationMode 0x0
+int attr scaleType 0x0
+int id compatible 0x0
+int id fillCenter 0x0
+int id fillEnd 0x0
+int id fillStart 0x0
+int id fitCenter 0x0
+int id fitEnd 0x0
+int id fitStart 0x0
+int id performance 0x0
+int[] styleable PreviewView { 0x0, 0x0 }
+int styleable PreviewView_implementationMode 0
+int styleable PreviewView_scaleType 1

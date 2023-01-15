@@ -3,12 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CameraView", "CameraView.csproj", "{444D9CD7-9BD9-4E34-999F-024CB53A7178}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6BAB86E8-E97B-43A0-B486-D52370417B66}"
-	ProjectSection(SolutionItems) = preProject
-		.editorconfig = .editorconfig
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CameraView", "CameraView.csproj", "{6C0D9A1C-8170-4F70-9846-AD6DA764EACB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,12 +11,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{444D9CD7-9BD9-4E34-999F-024CB53A7178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{444D9CD7-9BD9-4E34-999F-024CB53A7178}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{444D9CD7-9BD9-4E34-999F-024CB53A7178}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{444D9CD7-9BD9-4E34-999F-024CB53A7178}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{444D9CD7-9BD9-4E34-999F-024CB53A7178}.Release|Any CPU.Build.0 = Release|Any CPU
-		{444D9CD7-9BD9-4E34-999F-024CB53A7178}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6C0D9A1C-8170-4F70-9846-AD6DA764EACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0D9A1C-8170-4F70-9846-AD6DA764EACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0D9A1C-8170-4F70-9846-AD6DA764EACB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6C0D9A1C-8170-4F70-9846-AD6DA764EACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0D9A1C-8170-4F70-9846-AD6DA764EACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C0D9A1C-8170-4F70-9846-AD6DA764EACB}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

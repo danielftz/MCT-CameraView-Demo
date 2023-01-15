@@ -1,4 +1,5 @@
-﻿using Microsoft.Maui.Controls.Compatibility;
+﻿using CameraView.Handlers;
+using Microsoft.Extensions.Logging;
 
 namespace CameraView;
 
@@ -9,18 +10,20 @@ public static class MauiProgram
 		var builder = MauiApp.CreateBuilder();
 		builder
 			.UseMauiApp<App>()
-            .ConfigureMauiHandlers(handlers =>
-            {
-#if ANDROID
-				handlers.AddCompatibilityRenderer(typeof(CameraView), typeof(Platforms.Android.CameraViewRendererDroid));
-#elif IOS
-				handlers.AddCompatibilityRenderer(typeof(CameraView), typeof(Platforms.iOS.CameraViewRendererIOS));
-#endif
-			})
 			.ConfigureFonts(fonts =>
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-			});
+				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+			})
+			.ConfigureMauiHandlers(handlers =>
+			{
+				handlers.AddHandler(typeof(CameraView), typeof(CameraViewHandler));
+			})
+			;
+
+#if DEBUG
+		builder.Logging.AddDebug();
+#endif
 
 		return builder.Build();
 	}

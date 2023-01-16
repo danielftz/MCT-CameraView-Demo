@@ -16,6 +16,13 @@ namespace CameraView.Platforms.iOS
         {
             StartCameraView();
         }
+
+        public override void LayoutSubviews()
+        {
+            base.LayoutSubviews();
+            _previewLayer.Frame = Bounds;
+        }
+
         private void StartCameraView()
         {
             try
@@ -83,8 +90,7 @@ namespace CameraView.Platforms.iOS
 
                 _previewLayer = new AVCaptureVideoPreviewLayer(_captureSession)
                 {
-                    Frame = Bounds,
-                    MasksToBounds = true,
+                    //Frame = Bounds,
                     VideoGravity = AVLayerVideoGravity.ResizeAspectFill,
                 };
 
@@ -98,6 +104,4 @@ namespace CameraView.Platforms.iOS
             }
         }
     }
-
-    
 }

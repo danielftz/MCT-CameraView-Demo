@@ -12,28 +12,28 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = CameraView
-build_property.ProjectDir = F:\TD\MCT-CameraView-Demo\CameraView\
+build_property.ProjectDir = /Users/danielfang/Documents/MCT-CameraView-Demo/CameraView/
 
-[F:/TD/MCT-CameraView-Demo/CameraView/App.xaml]
+[/Users/danielfang/Documents/MCT-CameraView-Demo/CameraView/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CameraView.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[F:/TD/MCT-CameraView-Demo/CameraView/AppShell.xaml]
+[/Users/danielfang/Documents/MCT-CameraView-Demo/CameraView/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CameraView.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[F:/TD/MCT-CameraView-Demo/CameraView/Resources/Styles/Colors.xaml]
+[/Users/danielfang/Documents/MCT-CameraView-Demo/CameraView/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CameraView.Resources.Styles.Colors.xaml
-build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
-build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
 
-[F:/TD/MCT-CameraView-Demo/CameraView/Resources/Styles/Styles.xaml]
+[/Users/danielfang/Documents/MCT-CameraView-Demo/CameraView/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CameraView.Resources.Styles.Styles.xaml
-build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
-build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml

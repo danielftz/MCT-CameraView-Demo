@@ -1,7 +1,7 @@
-﻿using AVFoundation;
+﻿using System.Diagnostics;
+using AVFoundation;
 using CoreGraphics;
 using Foundation;
-using System.Diagnostics;
 using UIKit;
 
 namespace CameraView.Platforms.iOS
@@ -20,7 +20,10 @@ namespace CameraView.Platforms.iOS
         public override void LayoutSubviews()
         {
             base.LayoutSubviews();
-            _previewLayer.Frame = Bounds;
+            if (_previewLayer is not null)
+            {
+                _previewLayer.Frame = Bounds;
+            }            
         }
 
         private void StartCameraView()

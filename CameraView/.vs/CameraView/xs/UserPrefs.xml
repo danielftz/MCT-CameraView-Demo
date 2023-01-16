@@ -1,19 +1,32 @@
 ﻿<Properties StartupConfiguration="{6C0D9A1C-8170-4F70-9846-AD6DA764EACB}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CameraView PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Platforms/iOS/IOSCameraView.cs">
+    <Files>
+      <File FileName="Platforms/iOS/IOSCameraView.cs" Line="99" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CameraView" expanded="True" />
+          <Node name="CameraView" expanded="True">
+            <Node name="CameraView" expanded="True">
+              <Node name="Handlers" expanded="True" />
+              <Node name="Platforms" expanded="True">
+                <Node name="Android" expanded="True" />
+                <Node name="iOS" expanded="True">
+                  <Node name="IOSCameraView.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.CameraView PreferredExecutionTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
